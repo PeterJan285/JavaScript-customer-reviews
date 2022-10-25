@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  color: #222;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 80vw;
+  max-width: 620px;
+}
+
+.review {
+  background: white;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+.review:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+#person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#job {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #538a2e;
+  font-size: 0.6rem;
+}
+
+#info {
+  margin-bottom: 1.5rem;
+}
+
+.prev-btn,
+.next-btn {
+  color: #538a2e;
+  font-size: 1.25rem;
+  background: whitesmoke;
+  padding: 0.3rem 1rem;
+  margin: 0 1rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: gainsboro;
+}
+
